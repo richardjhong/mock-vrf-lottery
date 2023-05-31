@@ -11,10 +11,12 @@
   "license": "ISC",
   "devDependencies": {
     "@chainlink/contracts": "^0.6.1",
+    "@nomicfoundation/hardhat-toolbox": "^2.0.2",
     "hardhat": "^2.14.0",
     "prettier": "^2.8.8"
   },
   "dependencies": {
-    "@openzeppelin/contracts": "^4.9.0"
+    "@openzeppelin/contracts": "^4.9.0",
+    "dotenv": "^16.1.0"
   }
 }
