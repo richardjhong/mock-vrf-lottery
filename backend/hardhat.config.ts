@@ -8,6 +8,7 @@ const POLYGONSCAN_KEY = process.env.POLYGONSCAN_KEY;
 
 const config: HardhatUserConfig = {
   solidity: "0.8.4",
+  defaultNetwork: "mumbai",
   networks: {
     mumbai: {
       url: QUICKNODE_HTTP_URL,
